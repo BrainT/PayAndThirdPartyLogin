@@ -5,7 +5,7 @@
 //  Created by iOSDev on 16-4-18.
 //  Copyright (c) 2016年 iOSDev. All rights reserved.
 //
-#define APP_ID  @"wx5f7405172a174473"
+#define APP_ID  @"应用注册微信的App_ID"
 #import "WXApi.h"
 #import <UIKit/UIKit.h>
 

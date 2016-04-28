@@ -22,9 +22,6 @@
 #pragma mark - WeChat支付
 + (void)WeChatPayWithUrl:(NSString *)urlString
 {
-    //http://jcb.wd900.com/csapi/wxpay1.ashx?total_fee=价格&orderbh=订单号
-    
-    
     //解析服务端返回json数据
     NSError *error;
     //加载一个NSURL对象

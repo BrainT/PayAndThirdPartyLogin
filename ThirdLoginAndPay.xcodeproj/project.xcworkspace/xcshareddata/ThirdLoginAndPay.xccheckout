@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F7C182D8-EEBA-47D1-8292-81914056E183</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ThirdLoginAndPay</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F47868D545ECD329BC716AFDD08BA72D8BCBB9D9</key>
+		<string>https://github.com/BrainT/PayAndThirdPartyLogin.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ThirdLoginAndPay.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F47868D545ECD329BC716AFDD08BA72D8BCBB9D9</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/BrainT/PayAndThirdPartyLogin.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F47868D545ECD329BC716AFDD08BA72D8BCBB9D9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F47868D545ECD329BC716AFDD08BA72D8BCBB9D9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ThridLoginAndPay</string>
+		</dict>
+	</array>
+</dict>
+</plist>

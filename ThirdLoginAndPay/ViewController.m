@@ -37,21 +37,25 @@
 }
 #pragma mark - WeChatPay
 - (IBAction)WeChatPayClicked:(id)sender {
-    NSString * urlString = [NSString stringWithFormat:@"http://jcb.wd900.com/csapi/wxpay1.ashx?total_fee=%@&orderbh=%@",@1 ,@201604180002];
+    
+    NSString * urlString = [NSString stringWithFormat:@"提交的支付URL"];
 
     [WeChat WeChatPayWithUrl:urlString];
     
 }
 #pragma mark - QQLogin
 - (IBAction)QQLoginClicked:(id)sender {
+//    登录QQ
      [self getUserInfo:SSDKPlatformTypeQQ];
 }
 #pragma mark - WeChatLogin
 - (IBAction)WeChatLoginCliked:(id)sender {
+//    登录Wechat
     [self getUserInfo:SSDKPlatformTypeWechat];
 }
 #pragma mark - SinaWeiboLogin
 - (IBAction)SinaWeiboClicked:(id)sender {
+//    登录微博
     [self getUserInfo:SSDKPlatformTypeSinaWeibo];
 }
 #pragma mark - third登录
@@ -62,7 +66,7 @@
      {
          if (state == SSDKResponseStateSuccess)
          {
-             NSLog(@"platformType=%i",user.platformType);
+             NSLog(@"platformType=%lu",user.platformType);
              [self thirdLogin:user];
          }
          else
@@ -101,7 +105,7 @@
     AFHTTPRequestOperationManager *mgr=[AFHTTPRequestOperationManager manager];
     
     
-    NSString *urlString=[NSString stringWithFormat:@"%@/%@",@"http://jcb.wd900.com/csapi",action];
+    NSString *urlString=[NSString stringWithFormat:@"自己登录的服务器地址"];
     params[@"key"]=@"jiufen";
     
     [mgr POST: urlString parameters:params success:^(AFHTTPRequestOperation *operation, NSMutableDictionary *responseObject)

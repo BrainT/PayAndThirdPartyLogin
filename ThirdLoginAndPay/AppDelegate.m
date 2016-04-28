@@ -59,7 +59,7 @@
     
 }
 - (void)initShareSDK {
-    
+//    在shareSDK上注册的AppID
     [ShareSDK registerApp:@"11aa1aeb98440"
           activePlatforms:@[
                             @(SSDKPlatformTypeSinaWeibo),
@@ -87,7 +87,7 @@
               switch (platformType)
               {
                   case SSDKPlatformTypeSinaWeibo:
-                      
+//                      以下是在对应的平台的APPKey/ID，AppSecret
                       [appInfo SSDKSetupSinaWeiboByAppKey:@"568898243"
                                                 appSecret:@"38a4f8204cc784f81f9f0daaf31e02e3"
                                               redirectUri:@"http://www.sharesdk.cn"
